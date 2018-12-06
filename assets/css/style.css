@@ -1,76 +1,114 @@
-
-
 body {
-    font-family: 'Lato', sans-serif;
+    background-image: url('../assets/images/background.jpg');
+    font-family: 'Arial', sans-serif;
+    color: black;
+    letter-spacing: 2px;
 }
 
-
-
-#quiz {
-    margin-left: 10px;
-    background: pink;
-	padding: 10px 20px 10px 20px;
-	width: 400px;
-	border-radius: 20px;
-	float: left;
-
+h1 {
+    font-size: 60px;
+    color:rgb(243, 140, 140);
 }
 
-input {
-	margin-bottom: 20px;
-	display: block;
+#splashscreen {
+    background-image: url('../assets/images/runway.png');
+    background-repeat: no-repeat;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
-#textbox {
-	height: 25px;
-	font-size: 16px;
-	border-radius: 5px;
-	border: none;
-	padding-left: 5px;
+.black-background {
+    background-color: #000000;
 }
 
-
-#button {
-	background:white;
-	border: none;
-	border-radius: 5px;
-	padding: 10px;
-	color: black;
-	font-size: 16px;
-	transition-duration: .5s;
-	margin-top: 15px;
+.white {
+    color: #ffffff;
 }
 
-
-
-#button:hover {
-	background: white;
-	border: 1px solid green;
-	color: black;
-	cursor: pointer;
-
+.splashBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+    margin-top: 40%;
 }
 
-#after_submit {
-	visibility: hidden;
-	background: #ff5459;
-	padding: 10px 20px 10px 20px;
-	width: 400px;
-	border-radius: 20px;
-	float: left;
-	margin-left: 20px;
-	font-size: 30px;
-
-
+.splashBox2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
 }
 
-#picture {
-	width: 375px;
-	height: 245px;
+.wrongBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
 }
 
+label {
+    color: rgb(243, 140, 140);
+}
 
+#answerScreen {
+    display: none;
+    background-image: url('../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 17px;
+}
 
-#mc {
-	display: inline;
-} 
+#timesUp {
+    display: none;
+    background-image: url('../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    width: 35%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 17px;
+}
+
+.up {
+    color: rgb(243, 140, 140);
+}
+
+.timeRemain {
+    padding: 2%;
+    color: rgb(243, 140, 140);
+}
+
+.timeRemain #time-remain {
+    font-size: 50px;
+}
+
+body .container {
+    background-image: url('../assets/images/background.jpg');
+    height: 100%;
+    text-align: center;
+    display: none;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.questions {
+    font-size: 20px;
+    ]
+}
+
+.ques,
+label {
+    padding: 1%;
+}
+
+header {
+    font-size: 50px;
+    color: black;
+    margin-top: 2%;
+}
