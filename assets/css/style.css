@@ -1,5 +1,5 @@
 body {
-    background-image: url('../assets/images/background.jpg');
+    background-image: url('../images/background.jpg');
     font-family: 'Arial', sans-serif;
     color: black;
     letter-spacing: 2px;
@@ -11,9 +11,9 @@ h1 {
 }
 
 #splashscreen {
-    background-image: url('../assets/images/runway.png');
+    background-image: url('../images/runway.png');
     background-repeat: no-repeat;
-    width: 35%;
+    width: 25%;
     margin: 0 auto;
     border-radius: 5px;
 }
@@ -51,9 +51,9 @@ label {
 
 #answerScreen {
     display: none;
-    background-image: url('../assets/images/background.jpg');
+    background-image: url('../images/runway.png');
     background-repeat: no-repeat;
-    width: 40%;
+    width: 70%;
     margin: 0 auto;
     padding: 2%;
     margin-top: 15%;
@@ -62,9 +62,9 @@ label {
 
 #timesUp {
     display: none;
-    background-image: url('../assets/images/background.jpg');
+    background-image: url('../images/runway.png');
     background-repeat: no-repeat;
-    width: 35%;
+    width: 15%;
     margin: 0 auto;
     padding: 2%;
     margin-top: 15%;
@@ -85,8 +85,8 @@ label {
 }
 
 body .container {
-    background-image: url('../assets/images/background.jpg');
-    height: 100%;
+    background-image: url('../images/runway.png');
+    height: 200%;
     text-align: center;
     display: none;
     margin-bottom: 5%;
@@ -99,7 +99,6 @@ body .container {
 
 .questions {
     font-size: 20px;
-    ]
 }
 
 .ques,
