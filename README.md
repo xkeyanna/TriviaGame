@@ -1,2 +1,2 @@
 # TriviaGame
-Homework due 12/5/18
+https://xkeyanna.github.io/TriviaGame/
